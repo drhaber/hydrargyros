@@ -1,0 +1,12 @@
+Liquids 
+
+Mercury Ocean
+Magnesium chloride brine -> Water Source and Magneisum Source
+
+Atmo
+Chlorine 
+
+Ores
+
+Pyrite -> Iron and Sulfur Source
+Copper chloride -> Copper Source
