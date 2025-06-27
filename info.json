@@ -6,7 +6,8 @@
   "author": "ncc1702",
   "description": "Hydrargyros a mercury centric planet.",
   "dependencies": [  
-    "space-age >= 2.0.0"
+    "space-age >= 2.0.0",
+    "PlanetsLib"
   ],
   "space_travel_required": true
 }
