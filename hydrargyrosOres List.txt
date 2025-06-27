@@ -1,0 +1,146 @@
+Liquids 
+
+Mercury Ocean
+Magnesium chloride brine -> Water Source and Magneisum Source
+H2
+CO2
+HCL
+Copper Mercury Amalgam
+Mercury Vapor
+Hydro Carbon Feedstock
+
+Atmo
+Chlorine 
+Chlroine Vents
+
+Ores
+
+Pyrite -> Iron and Sulfur Source
+Copper chloride -> Copper Source
+
+Unique Mats
+
+Rubber
+Rubber Tube
+Insulated Copper Wire
+Vacuum Tube
+Quicksilver Science Pack
+Hydrocrabon FeedStock
+Calcium Brine
+Resin (same as Wood industry if installed)
+Thermite
+Magneisum
+H2
+CO2
+HCL
+Lime Glass
+Mercury Vapor Lamp
+Copper Mercury Amalgam Plate
+Steel Gears
+Steel Pipe
+Steel Fiber 
+Calcium Oxide
+
+Hydroxide Mercury Power Cell
+
+
+Buildings - Unique
+Mercuric Fumication Chamber
+Carroted Heat Pipe
+Steam Powered Electroylzer
+
+Hydroxide Mercury PowerPlant
+
+
+
+Progression
+
+Planet Discovery will Unlock Steel Gears, Steel Pipe and the Mercuric Chamber
+
+Iron Nodules will Dot the landscape Stone, Pyrite, and Copper Chloride, are minable by hand 
+
+T0
+
+Iron Nodules yield Vanilla Iron Ore
+Offshore pump, Steam Heater, Stone Furnace, and Crude Mixing Chamber will both be craftable from Iron and Stone only
+
+This allows one to automate steam and heat with no outside resources
+
+Stone Furnace Makes Iron Plates from Iron Ore and from Copper ore
+Offshore pump Acquires Liquid Mercury and Brine
+Mercuric Chamber makes 70C steam by combining the new two liquids
+Steam enters the Steam Heater and heats the attached buildings 
+
+Mercuric Fumication Chamber <- Steel Gears, Steel Pipes, Stone Brick, Steel Plate, Lime Glass
+Steam Heater <- Mercury Amalgam Plate, Steel Pipes, Stone Brick,Steel Plate
+
+Copper Mercury Amalgam <- Copper chloride, Mercury <> Mercuric Fumication Chamber
+Copper Mercury Amalgam Plates <- Mercury Amalgam <> Mercuric Fumication Chamber
+
+Lime Glass Batch  <- Calcium Oxide + Stone <> any craft
+Lime Glass <- Lime Glass Batch <> any furnace
+Calcite -> Calcium Oxide <> Furnace (any)
+
+T1
+Carroted Heat Pipe <- liquid Mercury and Steel Fibers <> Heated Assembler
+Steel Fiber <- Steel Plate <> Heated Assembler 
+
+Heated Assembler <- Mercury Amalgam Plates, Stone Brick, Steel Plate, Steel Gear
+Heated Chemical Plant <- Carroted Heat Pipe, Concrete, Steel Plate, Steel Gear, Steel Pipe
+
+Steam Fumicator <- Carroted Heat Pipe, Concrete, Steel Plate, Mercury Amalgam Plates, Steel Pipe
+
+Pyrite Processing
+Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Mercuric Fumication Chamber
+Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Inside Heated Chemical Plant
+
+Calcium Brine, Magnesium chloride brine -> Calcite <> Inside Heated Chemical Plant
+Steam 300C <- Calcium Oxide + Magnesium chloride brine <> Mercuric Fumication Chamber
+
+Copper Processing
+Copper ore <- CopperMercury Amalgam + Steam 300C <> Mercuric Fumication Chamber
+Mercury Vapor <- Mercury <> Inside Heated Chemical Plant
+
+Insulated Copper Wire <- Rubber Tube + Copper Mercury Amalgam + Steam 300C <> Mercuric Chamber
+
+2000C steam <- Copper Ore + Mangensium + water <> Mercuric Fumication Chamber
+Co2, Calcium Brine <- Calcite + 2000C steam <> Mercuric Fumication Chamber
+
+T3
+Steam Powered Electroylzer <- Insulated Copper Wire, Vacuum Tube, Hydroxide Mercury Power Cell, Refined Concrete, Iron Rod, Mercury Amalgam Plate
+
+Magnesium chloride brine -> O2, H2, Magenisum <> Steam Powered Electroylzer
+Hydroxide Mercury Power Cell <- Mercury, Lime Glass, Vacuum Tube, Steel Pipe
+HydroCarbon FeedStock <- Co2 + H2 <> Heated Chemical Plant
+
+Plastic, HCL <- HydroCarbon FeedStock + Chlorine <> Heated Chemical Plant
+Resin <- Sulfuric Acid + HydroCarbon FeedStock <> Heated Chemical Plant
+
+Rubber <- Resin + Chlroine <> Heated Chemical Plant
+Rubber Hose <- Resin + Chlroine <> Heated Chemical Plant
+Lubericant <- HydroCarbon FeedStock + Iron Ore <> Heated Chemical Plant
+
+Thermite Gel <- Resin + Magneisium + Copper Ore <> Heated Chemical Plant
+
+Solid Fuel <- HydroCarbon FeedStock <> Any Chemical Plant 
+
+Rocket Fuel <- Solid Fuel + Thermite Gel + H2 <> Any Chemical Plant
+
+Explosives <- Thermite Gel <> Any Chemical Plant 
+
+Molten Copper <- Copper Mercury Amalgam + 2000C Steam <> Mercuric Fumication Chamber
+
+Mercury Vapor Lamp <- Mercury Vapor + HCL + Lime Glass + Iron Rod <> Mercuric Fumication Chamber
+Vacuum Tube <- Lime Glass, Copper Mercury Amalgam, Iron Plate, Iron Rod, Resin <> Mercuric Fumication Chamber
+
+Steam Mercury Vapor Lamp <- Mercury Vapor Lamp + Hydroxide Mercury Power Cell <> any craft
+
+Quicksilver Science Pack <- Mercury Vapor Lamp + Hydroxide Mercury Power Cell + Vacuum Tube + Insulated Copper Wire
+
+Rocket Part <- Rocket Fuel + Low Density Allow + Vacuum Tube
+
+Low Density Allow <- Copper Mercury Amalgam + Rubber Tube + Steel Plate + 300C Steam <> Mercuric Fumication Chamber
+
+T4
+Hydroxide Mercury PowerPlant <- Hydroxide Mercury Power Cell + Low Density Allow + Mercury Vapor Lamp + Refined Concrete + Lime Glass + Insulated Copper Wire
+(like the Vanilla Steam turbine but has it's own integrated Supply Area, no power wire connections)
