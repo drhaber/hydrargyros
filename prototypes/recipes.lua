@@ -2,7 +2,7 @@ data:extend({
  {
     type = "recipe",
     name = "mercurian-marriage",
-    icon = "__space-age__/graphics/icons/fluid/acid-neutralisation.png",
+    icon = "__hydrargyros__/graphics/icons/recipe/mercurian-marriage.png",
     category = "chemistry-or-cryogenics",
     subgroup = "fluid-recipes",
     order = "d[other-chemistry]-a[mercurian-marriage]",

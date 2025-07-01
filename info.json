@@ -7,7 +7,11 @@
   "description": "Hydrargyros a mercury centric planet.",
   "dependencies": [  
     "space-age >= 2.0.0",
-    "PlanetsLib"
+    "PlanetsLib",
+    "GasWorks",
+    "HeatedFabrication",
+    "heat-inserter",
+    "k2-steel-pipes"
   ],
   "space_travel_required": true
 }
