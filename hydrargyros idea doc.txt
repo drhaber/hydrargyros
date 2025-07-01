@@ -22,6 +22,7 @@ Ores
 
 Unique Mats
 
+Thermal Reciprocator
 ✔ Rubber
 ✔ Rubber Tube
 ✔ Insulated Copper Wire
@@ -69,6 +70,8 @@ Steam enters the Steam Heater and heats the attached buildings
 Mercuric Fumigation Chamber <- Steel Gears, Steel Pipes, Stone Brick, Steel Plate, Lime Glass
 Steam Heater <- Mercury Amalgam Plate, Steel Pipes, Stone Brick, Steel Plate
 
+Thermal Reciprocator <- Carroted Heat Pipe, Steel GearsS
+
 Copper Mercury Amalgam <- Copper chloride, Mercury <> Mercuric Fumigation Chamber
 Copper Mercury Amalgam Plates <- Mercury Amalgam <> Mercuric Fumigation Chamber
 
@@ -80,8 +83,14 @@ Calcite -> Calcium Oxide <> Furnace (any)
 Carroted Heat Pipe <- liquid Mercury and Steel Fibers <> Heated Assembler
 Steel Mesh <- Steel Plate <> Heated Assembler 
 
-Heated Assembler <- Mercury Amalgam Plates, Stone Brick, Steel Plate, Steel Gear
-Heated Chemical Plant <- Carroted Heat Pipe, Concrete, Steel Plate, Steel Gear, Steel Pipe
+Heated Assembler <- Mercury Amalgam Plates, Stone Brick, Steel Gears, Steel Plate
+Heated Chemical Plant <- Carroted Heat Pipe, Concrete, Thermal Reciprocator, Steel Pipe x2
+Heated inserter <- Thermal Reciprocator, Steel Gear, Steel Plate
+long heated Inserter <- Heated inserter, Steel Plate, Steel Gear
+Fast Heated Inserter <- Heated inserter, Vacuum Tube, Steel Gear
+Bulk Heated Inserter <- Fast Heated Inserter, Steel Gear, Hydroxide Mercury Power Cell
+
+Heated Stack Inserter <- Stack Inserter, Hydroxide Mercury Power Cell, Rubber
 
 Pyrite Processing
 Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Mercuric Fumigation Chamber
@@ -192,6 +201,9 @@ General Terrain Themes
 
     Brine Flats: Magnesium chloride brine forms shallow, oily lakes with crusted salt flats at the edges. Evaporation leaves glittery, white deposits.
 
+
+
+Combinators using Hydroxide Mercury Power Cell and Vacuum tubes and require no power (maybe just a hidden void power plant)
 
 Thanks List
 
