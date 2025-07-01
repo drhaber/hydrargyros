@@ -116,7 +116,8 @@ data:extend({
       ["magnetic-field"] = 50,
       pressure = 200,
       ["solar-power"] = 0,
-      gravity = 25
+      gravity = 25,
+      ["hydrargyros-causticity"] = 250
     },
     entities_require_heating = true,
     {

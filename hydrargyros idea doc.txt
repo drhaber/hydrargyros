@@ -193,3 +193,10 @@ General Terrain Themes
     Brine Flats: Magnesium chloride brine forms shallow, oily lakes with crusted salt flats at the edges. Evaporation leaves glittery, white deposits.
 
 
+Thanks List
+
+Mods Code used to derive mine
+Rubia
+Cerys
+Factorio 
+Factorio Space Age
