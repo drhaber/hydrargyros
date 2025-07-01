@@ -27,7 +27,7 @@ data:extend({
     particle_tints = tile_graphics.gleba_shallow_water_particle_tints,
     layer_group = "water-overlay",
     layer = 3,
-    sprite_usage_surface = "hydrargyros",
+    sprite_usage_surface = "vulcanus",
     variants =
     {
       main =
@@ -74,7 +74,7 @@ data:extend({
     particle_tints = tile_graphics.gleba_mud_water_particle_tints,
     layer_group = "water",
     layer = 3,
-    sprite_usage_surface = "hydrargyros",
+    sprite_usage_surface = "vulcanus",
     variants =
     {
       main =

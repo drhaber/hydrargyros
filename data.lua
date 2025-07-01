@@ -1,5 +1,7 @@
 --require("prototypes.entity.hydrargyros")
 require("prototypes.tiles")
+require("prototypes.items")
+require("prototypes.fluids")
 require("__space-age__/prototypes/planet/planet-vulcanus-map-gen")
 require("__space-age__/prototypes/planet/planet-gleba-map-gen")
 
@@ -9,37 +11,6 @@ local effects = require("__core__.lualib.surface-render-parameter-effects")
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 local planet_catalogue_aquilo = require("__space-age__.prototypes.planet.procession-catalogue-aquilo")
 local planet_map_gen = require("__base__/prototypes/planet/planet-map-gen")
-
-data:extend {
-  {
-    type = "fluid",
-    name = "liquid-mercury",
-    icon = "__hydrargyros__/graphics/fluids/fluid-droplet-mercury.png",
-    subgroup = "fluid",
-    order = "b[new-fluid]-a[fluids]",
-    default_temperature = -30,
-    max_temperature = 10000,
-    heat_capacity = "130J",
-    base_color = {0.0, 0.1, 0.53},
-    flow_color = {0.2, 0.68, 0.93},
-    auto_barrel = false,
-    hidden = false,
-  },
-    {
-    type = "fluid",
-    name = "magnesium-chloride-brine",
-    icon = "__hydrargyros__/graphics/fluids/fluid-droplet-magnesium-chloride-brine.png",
-    subgroup = "fluid",
-    order = "b[new-fluid]-a[fluids]",
-    default_temperature = -30,
-    max_temperature = 10000,
-    heat_capacity = "2500J",
-    base_color = {0.0, 0.1, 0.53},
-    flow_color = {0.2, 0.68, 0.93},
-    auto_barrel = false,
-    hidden = false,
-  }
-}
 
 planet_map_gen.hydrargyros = function()
   return
