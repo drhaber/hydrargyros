@@ -1,17 +1,19 @@
 Liquids 
 
 Mercury Ocean
-Magnesium chloride brine -> Water Source and Magneisum Source
+Magnesium chloride brine -> Water Source and Magnesium Source
 H2
 CO2
 HCL
 Copper Mercury Amalgam
 Mercury Vapor
-Hydro Carbon Feedstock
+Hydro Carbon Feedstock (Methanol)
+Calcium Brine
+Chlorine 
+Thermite Gel
 
 Atmo
-Chlorine 
-Chlroine Vents
+Chlorine Vents
 
 Ores
 
@@ -25,122 +27,172 @@ Rubber Tube
 Insulated Copper Wire
 Vacuum Tube
 Quicksilver Science Pack
-Hydrocrabon FeedStock
-Calcium Brine
+Hydrocarbon Feedstock
+
 Resin (same as Wood industry if installed)
-Thermite
-Magneisum
-H2
-CO2
-HCL
+Magnesium
 Lime Glass
 Mercury Vapor Lamp
 Copper Mercury Amalgam Plate
 Steel Gears
 Steel Pipe
-Steel Fiber 
+Steel Mesh
 Calcium Oxide
+Calcium Chloride
 
 Hydroxide Mercury Power Cell
 
 
 Buildings - Unique
-Mercuric Fumication Chamber
-Carroted Heat Pipe
-Steam Powered Electroylzer
+Mercuric Fumigation Chamber - Powerless metal crafting machine (not sure what other uses yet)
+Carroted Heat Pipe - (Heat pipe with extended range Maybe integrate quality heat pipes mod)
 
-Hydroxide Mercury PowerPlant
-
+Hydroxide Mercury Power Plant - Better Version of the Steam Turbine
+Mercury Vapor Lamp - Better lamp 
 
 
 Progression
 
-Planet Discovery will Unlock Steel Gears, Steel Pipe and the Mercuric Chamber
+Planet Discovery will unlock Steel Gears, Steel Pipe and the Mercuric Chamber
 
 Iron Nodules will Dot the landscape Stone, Pyrite, and Copper Chloride, are minable by hand 
 
 T0
 
 Iron Nodules yield Vanilla Iron Ore
-Offshore pump, Steam Heater, Stone Furnace, and Crude Mixing Chamber will both be craftable from Iron and Stone only
+Offshore pump, Stone Furnace, and Crude Mixing Chamber will all be craft able from Iron and Stone only
 
 This allows one to automate steam and heat with no outside resources
 
-Stone Furnace Makes Iron Plates from Iron Ore and from Copper ore
+Stone Furnace Makes Iron Plates from Iron Ore 
 Offshore pump Acquires Liquid Mercury and Brine
 Mercuric Chamber makes 70C steam by combining the new two liquids
 Steam enters the Steam Heater and heats the attached buildings 
 
-Mercuric Fumication Chamber <- Steel Gears, Steel Pipes, Stone Brick, Steel Plate, Lime Glass
-Steam Heater <- Mercury Amalgam Plate, Steel Pipes, Stone Brick,Steel Plate
+Mercuric Fumigation Chamber <- Steel Gears, Steel Pipes, Stone Brick, Steel Plate, Lime Glass
+Steam Heater <- Mercury Amalgam Plate, Steel Pipes, Stone Brick, Steel Plate
 
-Copper Mercury Amalgam <- Copper chloride, Mercury <> Mercuric Fumication Chamber
-Copper Mercury Amalgam Plates <- Mercury Amalgam <> Mercuric Fumication Chamber
+Copper Mercury Amalgam <- Copper chloride, Mercury <> Mercuric Fumigation Chamber
+Copper Mercury Amalgam Plates <- Mercury Amalgam <> Mercuric Fumigation Chamber
 
-Lime Glass Batch  <- Calcium Oxide + Stone <> any craft
+Lime Glass Batch <- Calcium Oxide + Stone <> any craft
 Lime Glass <- Lime Glass Batch <> any furnace
 Calcite -> Calcium Oxide <> Furnace (any)
 
-T1
+
 Carroted Heat Pipe <- liquid Mercury and Steel Fibers <> Heated Assembler
-Steel Fiber <- Steel Plate <> Heated Assembler 
+Steel Mesh <- Steel Plate <> Heated Assembler 
 
 Heated Assembler <- Mercury Amalgam Plates, Stone Brick, Steel Plate, Steel Gear
 Heated Chemical Plant <- Carroted Heat Pipe, Concrete, Steel Plate, Steel Gear, Steel Pipe
 
-Steam Fumicator <- Carroted Heat Pipe, Concrete, Steel Plate, Mercury Amalgam Plates, Steel Pipe
-
 Pyrite Processing
-Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Mercuric Fumication Chamber
+Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Mercuric Fumigation Chamber
 Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Inside Heated Chemical Plant
 
 Calcium Brine, Magnesium chloride brine -> Calcite <> Inside Heated Chemical Plant
-Steam 300C <- Calcium Oxide + Magnesium chloride brine <> Mercuric Fumication Chamber
+Steam 300C <- Calcium Oxide + Magnesium chloride brine <> Mercuric Fumigation Chamber
 
 Copper Processing
-Copper ore <- CopperMercury Amalgam + Steam 300C <> Mercuric Fumication Chamber
+Copper ore <- Copper Mercury Amalgam + Steam 300C <> Mercuric Fumigation Chamber
 Mercury Vapor <- Mercury <> Inside Heated Chemical Plant
 
 Insulated Copper Wire <- Rubber Tube + Copper Mercury Amalgam + Steam 300C <> Mercuric Chamber
 
-2000C steam <- Copper Ore + Mangensium + water <> Mercuric Fumication Chamber
-Co2, Calcium Brine <- Calcite + 2000C steam <> Mercuric Fumication Chamber
+Co2, Calcium Brine <- Calcite + 2000C steam <> Mercuric Fumigation Chamber
 
 T3
-Steam Powered Electroylzer <- Insulated Copper Wire, Vacuum Tube, Hydroxide Mercury Power Cell, Refined Concrete, Iron Rod, Mercury Amalgam Plate
 
-Magnesium chloride brine -> O2, H2, Magenisum <> Steam Powered Electroylzer
-Hydroxide Mercury Power Cell <- Mercury, Lime Glass, Vacuum Tube, Steel Pipe
-HydroCarbon FeedStock <- Co2 + H2 <> Heated Chemical Plant
+Iron Plates + CO2 + H2 <- Iron Ore + Methanol <> Inside Heated Chemical Plant
 
-Plastic, HCL <- HydroCarbon FeedStock + Chlorine <> Heated Chemical Plant
-Resin <- Sulfuric Acid + HydroCarbon FeedStock <> Heated Chemical Plant
+Hydroxide Mercury Power Cell <- Mercury, Lime Glass, Vacuum Tube, Steel Pipe, Steel Mesh, Steel Plate, Calcium Chloride, Insulated Copper Wire
+Hydrocarbon Feedstock <- Co2 + H2 <> Heated Chemical Plant
 
-Rubber <- Resin + Chlroine <> Heated Chemical Plant
-Rubber Hose <- Resin + Chlroine <> Heated Chemical Plant
-Lubericant <- HydroCarbon FeedStock + Iron Ore <> Heated Chemical Plant
+Plastic, HCL <- Hydrocarbon Feedstock + Chlorine <> Heated Chemical Plant
+Resin <- Sulfuric Acid + Hydrocarbon Feedstock <> Heated Chemical Plant
 
-Thermite Gel <- Resin + Magneisium + Copper Ore <> Heated Chemical Plant
+Rubber <- Resin + Chlorine <> Heated Chemical Plant
+Rubber Hose <- Resin + Chlorine <> Heated Chemical Plant
+Lubricant <- Hydrocarbon Feedstock + Iron Ore <> Heated Chemical Plant
 
-Solid Fuel <- HydroCarbon FeedStock <> Any Chemical Plant 
+Calcium Oxide, Iron Plates, Magnesium chloride brine -> Iron Ore (lossy), Magnesium <> Heated Chemical Plant
+
+Thermite Gel <- Resin + Magnesium + Copper Ore <> Heated Chemical Plant
+
+Solid Fuel <- Hydrocarbon Feedstock <> Any Chemical Plant 
 
 Rocket Fuel <- Solid Fuel + Thermite Gel + H2 <> Any Chemical Plant
 
 Explosives <- Thermite Gel <> Any Chemical Plant 
 
-Molten Copper <- Copper Mercury Amalgam + 2000C Steam <> Mercuric Fumication Chamber
+Molten Copper <- Copper Mercury Amalgam + 2000C Steam <> Mercuric Fumigation Chamber
 
-Mercury Vapor Lamp <- Mercury Vapor + HCL + Lime Glass + Iron Rod <> Mercuric Fumication Chamber
-Vacuum Tube <- Lime Glass, Copper Mercury Amalgam, Iron Plate, Iron Rod, Resin <> Mercuric Fumication Chamber
+Mercury Vapor Lamp <- Mercury Vapor + HCL + Lime Glass + Iron Rod <> Mercuric Fumigation Chamber
+Vacuum Tube <- Lime Glass, Copper Mercury Amalgam, Iron Plate, Iron Rod <> Mercuric Fumigation Chamber
 
 Steam Mercury Vapor Lamp <- Mercury Vapor Lamp + Hydroxide Mercury Power Cell <> any craft
 
-Quicksilver Science Pack <- Mercury Vapor Lamp + Hydroxide Mercury Power Cell + Vacuum Tube + Insulated Copper Wire
+Quicksilver Science Pack <- Mercury Vapor Lamp + Hydroxide Mercury Power Cell + Vacuum Tube
 
 Rocket Part <- Rocket Fuel + Low Density Allow + Vacuum Tube
 
-Low Density Allow <- Copper Mercury Amalgam + Rubber Tube + Steel Plate + 300C Steam <> Mercuric Fumication Chamber
+Low Density Allow <- Copper Mercury Amalgam + Rubber Tube + Steel Plate + 300C Steam <> Mercuric Fumigation Chamber
 
 T4
-Hydroxide Mercury PowerPlant <- Hydroxide Mercury Power Cell + Low Density Allow + Mercury Vapor Lamp + Refined Concrete + Lime Glass + Insulated Copper Wire
-(like the Vanilla Steam turbine but has it's own integrated Supply Area, no power wire connections)
+Hydroxide Mercury Power Plant <- Hydroxide Mercury Power Cell + Low Density Allow + Mercury Vapor Lamp + Refined Concrete + Lime Glass + Insulated Copper Wire
+(Like the Vanilla Steam turbine but has its own integrated Supply Area, no power wire connections)
+
+
+Alchemical Heating 
+Steam 300C + H2 + Magnesium Oxide <- Magnesium + Steam 70C <> Mercuric Fumigation Chamber
+Steam 500C + H2 + Magnesium Oxide  <- Magnesium + Steam 300C <> Mercuric Fumigation Chamber
+Steam 700C + H2 + Magnesium Oxide  <- Magnesium + Steam 500C <> Mercuric Fumigation Chamber
+Steam 1000C + H2 + Magnesium Oxide  <- Magnesium + Steam 700C <> Mercuric Fumigation Chamber
+Steam 1500C + H2 + Magnesium Oxide  <- Magnesium + Steam 1000C <> Mercuric Fumigation Chamber
+Steam 2000C + H2 + Magnesium Oxide  <- Magnesium + Steam 1500C <> Mercuric Fumigation Chamber
+
+2000C steam <- Copper Ore + Magnesium + water <> Mercuric Fumigation Chamber
+2000C steam <- Copper Ore + Magnesium + steam(any temp) <> Mercuric Fumigation Chamber
+
+Water <- Steam condensing <> Mercuric Fumigation Chamber
+
+Water + Magnesium chloride brine <- HCl + Magnesium Oxide <> Heated Chemical Plant
+
+Post Planet
+Mercury Plates <> Cyro Plant
+Mercury Liquid <> Foundry
+Molten Copper <- Copper Mercury Amalgam <> Foundry
+
+AI output Terrain Desc.
+
+General Terrain Themes
+
+    Barren, Cracked Plains: Most of the terrain would appear dry, fractured, and chemically etched. Mercury and brine would form shallow basins or slow-moving slicks.
+
+    Corrosive Pools: Pools of shimmering liquid mercury, possibly mixed with brine, sit in lowlands. These are reflective and mirror-like, surrounded by crusty mineral deposits.
+
+    Dusty, Pale Sediment: Fine, ash-colored magnesium and calcium salts crust the ground, easily disturbed into clouds by movement.
+
+    Bright Mineral Veins: Exposed ores like copper chloride (green-blue) and pyrite (metallic gold) would form streaks through otherwise color-bleached terrain.
+
+💨 Atmospheric Influence
+
+    Chlorine Fog: A yellow-green haze permeates low-lying areas. Visibility is reduced; anything unprotected corrodes quickly.
+
+    Corrosion Stains: Rust-colored and greenish corrosion streaks on exposed metals and rocks show the damage of constant chlorine and mercury vapor exposure.
+
+    No Vegetation: Life as we know it would not survive. All surfaces are bare, mechanical, and chemical.
+
+🌡️ Thermal Features
+
+    Thermal Vents: Bright orange or red vents releasing heat and chlorine could be found in geologically active zones.
+
+    Cracked Heat Scars: Surface around high-heat structures (like chemical plants) might be blistered or glassy, showing thermal damage.
+
+🌊 Mercury and Brine Oceans
+
+    Mercury Ocean: Heavy, silvery seas that ripple sluggishly. Shorelines might have strange “tidemarks” of fused minerals or crystallized chlorides.
+
+    Brine Flats: Magnesium chloride brine forms shallow, oily lakes with crusted salt flats at the edges. Evaporation leaves glittery, white deposits.
+
+

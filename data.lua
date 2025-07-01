@@ -14,7 +14,7 @@ data:extend {
   {
     type = "fluid",
     name = "liquid-mercury",
-    icon = "__hydrargyros__/graphics/icons/fluid-droplet-mercury.png",
+    icon = "__hydrargyros__/graphics/fluids/fluid-droplet-mercury.png",
     subgroup = "fluid",
     order = "b[new-fluid]-a[fluids]",
     default_temperature = -30,
@@ -28,7 +28,7 @@ data:extend {
     {
     type = "fluid",
     name = "magnesium-chloride-brine",
-    icon = "__hydrargyros__/graphics/icons//fluid-droplet-magnesium-chloride-brine.png",
+    icon = "__hydrargyros__/graphics/fluids/fluid-droplet-magnesium-chloride-brine.png",
     subgroup = "fluid",
     order = "b[new-fluid]-a[fluids]",
     default_temperature = -30,
