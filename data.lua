@@ -2,6 +2,7 @@
 require("prototypes.tiles")
 require("prototypes.items")
 require("prototypes.fluids")
+require("prototypes.recipes")
 require("__space-age__/prototypes/planet/planet-vulcanus-map-gen")
 require("__space-age__/prototypes/planet/planet-gleba-map-gen")
 
