@@ -3,6 +3,7 @@ require("prototypes.tiles")
 require("prototypes.items")
 require("prototypes.fluids")
 require("prototypes.recipes")
+require("prototypes.surface_properties")
 require("__space-age__/prototypes/planet/planet-vulcanus-map-gen")
 require("__space-age__/prototypes/planet/planet-gleba-map-gen")
 
@@ -87,13 +88,13 @@ data:extend({
     icon_size = 64,
     starmap_icon = "__hydrargyros__/graphics/icons/hydrargyros-starmap.png",
     starmap_icon_size = 64,
-    gravity_pull = 12,
+    gravity_pull = 25,
     distance = 42,
     orientation = 0.45,
     magnitude = 1.0,
     label_orientation = 0.15,
     order = "f",
-    temperature = -195,
+    temperature = -30,
     subgroup = "planets",
     map_gen_settings = planet_map_gen.hydrargyros(),
     pollutant_type = nil,
@@ -113,9 +114,9 @@ data:extend({
     {
       ["day-night-cycle"] = 15 * minute,
       ["magnetic-field"] = 50,
-      pressure = 5300,
+      pressure = 200,
       ["solar-power"] = 0,
-      gravity = 12
+      gravity = 25
     },
     entities_require_heating = true,
     {
