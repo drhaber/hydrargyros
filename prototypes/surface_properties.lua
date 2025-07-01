@@ -9,7 +9,7 @@ data:extend({
 })
 
 --Planets Causticity --units will be mm/day mpd
-local function set_causticity(planet_name,speed)
+local function set_causticity(planet_name,causticity)
   if (data.raw["planet"][planet_name]) then 
     data.raw["planet"][planet_name].surface_properties["hydrargyros-causticity"] = causticity end
 end
