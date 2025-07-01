@@ -1,46 +1,43 @@
 Liquids 
 
-Mercury Ocean
-Magnesium chloride brine -> Water Source and Magnesium Source
-H2
-CO2
-HCL
-Copper Mercury Amalgam
-Mercury Vapor
-Hydro Carbon Feedstock (Methanol)
-Calcium Brine
-Chlorine 
-Thermite Gel
+✔ Mercury Ocean 
+✔ Magnesium chloride brine -> Water Source and Magnesium Source
+✔ H2
+✔ CO2
+✔ HCL
+✔ Copper Mercury Amalgam
+✔ Mercury Vapor
+✔ Hydro Carbon Feedstock (Methanol)
+✔ Calcium Brine
+✔ Chlorine 
+✔ Thermite Gel
 
 Atmo
 Chlorine Vents
 
 Ores
 
-Pyrite -> Iron and Sulfur Source
-Copper chloride -> Copper Source
+✔ Pyrite -> Iron and Sulfur Source
+✔ Copper chloride -> Copper Source
 
 Unique Mats
 
-Rubber
-Rubber Tube
-Insulated Copper Wire
-Vacuum Tube
-Quicksilver Science Pack
-Hydrocarbon Feedstock
+✔ Rubber
+✔ Rubber Tube
+✔ Insulated Copper Wire
+✔ Vacuum Tube
+✔ Quicksilver Science Pack
+✔ Resin (same as Wood industry if installed)
+✔ Magnesium
+✔ Lime Glass
+✔ Mercury Ingot
+✔ Copper Mercury Amalgam Plate
+✔ Steel Gears
+✔ Steel Mesh
+✔ Calcium Oxide
+✔ Calcium Chloride
 
-Resin (same as Wood industry if installed)
-Magnesium
-Lime Glass
-Mercury Vapor Lamp
-Copper Mercury Amalgam Plate
-Steel Gears
-Steel Pipe
-Steel Mesh
-Calcium Oxide
-Calcium Chloride
-
-Hydroxide Mercury Power Cell
+✔ Hydroxide Mercury Power Cell
 
 
 Buildings - Unique
@@ -49,7 +46,7 @@ Carroted Heat Pipe - (Heat pipe with extended range Maybe integrate quality heat
 
 Hydroxide Mercury Power Plant - Better Version of the Steam Turbine
 Mercury Vapor Lamp - Better lamp 
-
+Steel Pipe
 
 Progression
 

@@ -14,6 +14,22 @@ data:extend({
   },
 
 --- items
+  {
+    type = "item",
+    name = "quick-silver-science-pack",
+    icon = "__hydrargyros__/graphics/items/quick-silver-science-pack.png",
+    subgroup = "science-pack",
+    order = "ncc",
+    icon_size = 64,
+    pictures =
+    {
+      { size = 64, filename = "__hydrargyros__/graphics/items/quick-silver-science-pack.png", scale = 0.5 },
+    },
+    stack_size = 200,
+    default_import_location = "hydrargyros",
+    random_tint_color = item_tints.iron_rust,
+    weight = 1*kg,
+  },  
     {
     type = "item",
     name = "copper-chloride",
@@ -203,7 +219,7 @@ data:extend({
     name = "metal-steel-gear",
     icon = "__hydrargyros__/graphics/items/part-metal-steel-gear-3.png",
     subgroup = "hydrargyros-processes",
-    order = "aee",
+    order = "aei",
     icon_size = 64,
     pictures =
     {
@@ -270,4 +286,23 @@ data:extend({
     random_tint_color = item_tints.iron_rust,
     weight = 1*kg,
   },  
+    {
+    type = "item",
+    name = "material-rubber-sheet",
+    icon = "__hydrargyros__/graphics/items/material-rubber-sheet-4.png",
+    subgroup = "hydrargyros-processes",
+    order = "aee",
+    icon_size = 64,
+    pictures =
+    {
+      { size = 64, filename = "__hydrargyros__/graphics/items/material-rubber-sheet-1.png", scale = 0.5 },
+      { size = 64, filename = "__hydrargyros__/graphics/items/material-rubber-sheet-2.png", scale = 0.5 },
+      { size = 64, filename = "__hydrargyros__/graphics/items/material-rubber-sheet-3.png", scale = 0.5 },
+      { size = 64, filename = "__hydrargyros__/graphics/items/material-rubber-sheet-4.png", scale = 0.5 },
+    },
+    stack_size = 100,
+    default_import_location = "hydrargyros",
+    random_tint_color = item_tints.iron_rust,
+    weight = 1*kg,
+  },
 })
