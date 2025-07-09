@@ -7,6 +7,8 @@ require("prototypes.surface_properties")
 require("__space-age__/prototypes/planet/planet-vulcanus-map-gen")
 require("__space-age__/prototypes/planet/planet-gleba-map-gen")
 
+require("prototypes.entity.mercuric-fumigation-chamber")
+
 local planet_map_gen = require("__space-age__/prototypes/planet/planet-map-gen")
 
 local effects = require("__core__.lualib.surface-render-parameter-effects")

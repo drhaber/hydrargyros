@@ -1,9 +1,14 @@
 data:extend({ 
+
+  {
+    type = "recipe-category",
+    name = "fumigation"
+  },
  {
     type = "recipe",
     name = "mercurian-marriage",
     icon = "__hydrargyros__/graphics/icons/recipe/mercurian-marriage.png",
-    category = "chemistry-or-cryogenics",
+    category = "fumigation",
     subgroup = "fluid-recipes",
     order = "d[other-chemistry]-a[mercurian-marriage]",
     auto_recycle = false,

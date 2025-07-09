@@ -202,6 +202,9 @@ General Terrain Themes
     Brine Flats: Magnesium chloride brine forms shallow, oily lakes with crusted salt flats at the edges. Evaporation leaves glittery, white deposits.
 
 
+Is lighting Crafting Possible? 
+If so make that an Electrolyzer
+
 
 Combinators using Hydroxide Mercury Power Cell and Vacuum tubes and require no power (maybe just a hidden void power plant)
 

@@ -11,7 +11,8 @@
     "GasWorks",
     "HeatedFabrication",
     "heat-inserter",
-    "k2-steel-pipes"
+    "k2-steel-pipes",
+    "rp_steam_roboports"
   ],
   "space_travel_required": true
 }

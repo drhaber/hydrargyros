@@ -12,6 +12,12 @@ data:extend({
     group = "intermediate-products",
     order = "ncc"
   },
+    {
+    type = "item-subgroup",
+    name = "hydrargyros-production-machine",
+    group = "production",
+    order = "ncc"
+  },
 
 --- items
   {
@@ -305,4 +311,17 @@ data:extend({
     random_tint_color = item_tints.iron_rust,
     weight = 1*kg,
   },
+--- machines
+    {
+    type = "item",
+    name = "mercuric-fumigation-chamber",
+    icon = "__hydrargyros__/graphics/entities/mercuric-fumigation-chamber/item-mercuric-fumigation-chamber.png",
+    subgroup = "hydrargyros-production-machine",
+    order = "aaa",
+    inventory_move_sound = item_sounds.mechanical_large_inventory_move,
+    pick_sound = item_sounds.mechanical_large_inventory_pickup,
+    drop_sound = item_sounds.mechanical_large_inventory_move,
+    place_result = "mercuric-fumigation-chamber",
+    stack_size = 10,
+    }
 })
