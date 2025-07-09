@@ -22,6 +22,7 @@ data:extend({
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     crafting_categories = {"fumigation"},
     crafting_speed = 1,
+    --module_slots = 4,
     energy_source = 
     {
       type = "void"

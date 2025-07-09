@@ -42,12 +42,12 @@ Thermal Reciprocator
 
 
 Buildings - Unique
-Mercuric Fumigation Chamber - Powerless metal crafting machine (not sure what other uses yet)
+✔ Mercuric Fumigation Chamber - Powerless metal crafting machine (not sure what other uses yet)
 Carroted Heat Pipe - (Heat pipe with extended range Maybe integrate quality heat pipes mod)
 
 Hydroxide Mercury Power Plant - Better Version of the Steam Turbine
 Mercury Vapor Lamp - Better lamp 
-Steel Pipe
+✔ Steel Pipe
 
 Progression
 
@@ -64,13 +64,13 @@ This allows one to automate steam and heat with no outside resources
 
 Stone Furnace Makes Iron Plates from Iron Ore 
 Offshore pump Acquires Liquid Mercury and Brine
-Mercuric Chamber makes 70C steam by combining the new two liquids
+✔ Mercuric Chamber makes 70C steam by combining the new two liquids
 Steam enters the Steam Heater and heats the attached buildings 
 
-Mercuric Fumigation Chamber <- Steel Gears, Steel Pipes, Stone Brick, Steel Plate, Lime Glass
+✔ Mercuric Fumigation Chamber <- Steel Gears, Steel Pipes, Stone Brick, Steel Plate, Lime Glass
 Steam Heater <- Mercury Amalgam Plate, Steel Pipes, Stone Brick, Steel Plate
 
-Thermal Reciprocator <- Carroted Heat Pipe, Steel GearsS
+Thermal Reciprocator <- Carroted Heat Pipe, Steel Gears
 
 Copper Mercury Amalgam <- Copper chloride, Mercury <> Mercuric Fumigation Chamber
 Copper Mercury Amalgam Plates <- Mercury Amalgam <> Mercuric Fumigation Chamber
