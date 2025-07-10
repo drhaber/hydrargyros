@@ -31,6 +31,7 @@ Thermal Reciprocator
 ✔ Resin (same as Wood industry if installed)
 ✔ Magnesium
 ✔ Lime Glass
+Lime Glass Batch
 ✔ Mercury Ingot
 ✔ Copper Mercury Amalgam Plate
 ✔ Steel Gears
@@ -72,25 +73,25 @@ Steam enters the Steam Heater and heats the attached buildings
 
 Thermal Reciprocator <- Carroted Heat Pipe, Steel Gears
 
-Copper Mercury Amalgam <- Copper chloride, Mercury <> Mercuric Fumigation Chamber
-Copper Mercury Amalgam Plates <- Mercury Amalgam <> Mercuric Fumigation Chamber
+✔ Copper Mercury Amalgam <- Copper chloride, Mercury <> Mercuric Fumigation Chamber
+✔ Copper Mercury Amalgam Plates <- Mercury Amalgam <> Mercuric Fumigation Chamber
 
 Lime Glass Batch <- Calcium Oxide + Stone <> any craft
 Lime Glass <- Lime Glass Batch <> any furnace
-Calcite -> Calcium Oxide <> Furnace (any)
+✔ Calcite -> Calcium Oxide <> Furnace (any)
 
 
 Carroted Heat Pipe <- liquid Mercury and Steel Fibers <> Heated Assembler
-Steel Mesh <- Steel Plate <> Heated Assembler 
+✔ Steel Mesh <- Steel Plate <> Heated Assembler 
 
-Heated Assembler <- Mercury Amalgam Plates, Stone Brick, Steel Gears, Steel Plate
+✔ Heated Assembler <- Mercury Amalgam Plates, Stone Brick, Steel Gears, Steel Plate
 Heated Chemical Plant <- Carroted Heat Pipe, Concrete, Thermal Reciprocator, Steel Pipe x2
 Heated inserter <- Thermal Reciprocator, Steel Gear, Steel Plate
-long heated Inserter <- Heated inserter, Steel Plate, Steel Gear
-Fast Heated Inserter <- Heated inserter, Vacuum Tube, Steel Gear
-Bulk Heated Inserter <- Fast Heated Inserter, Steel Gear, Hydroxide Mercury Power Cell
+✔ long heated Inserter <- Heated inserter, Steel Plate, Steel Gear
+✔ Fast Heated Inserter <- Heated inserter, Vacuum Tube, Steel Gear
+✔ Bulk Heated Inserter <- Fast Heated Inserter, Steel Gear, Hydroxide Mercury Power Cell
 
-Heated Stack Inserter <- Stack Inserter, Hydroxide Mercury Power Cell, Rubber
+✔ Heated Stack Inserter <- Stack Inserter, Hydroxide Mercury Power Cell, Rubber
 
 Pyrite Processing
 Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Mercuric Fumigation Chamber
