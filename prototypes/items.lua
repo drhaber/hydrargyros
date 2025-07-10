@@ -139,14 +139,14 @@ data:extend({
   },
   {
     type = "item",
-    name = "plate-copper-aercury-amalgam",
-    icon = "__hydrargyros__/graphics/items/part-metal-plate-copper-aercury-amalgam.png",
+    name = "plate-copper-mercury-amalgam",
+    icon = "__hydrargyros__/graphics/items/part-metal-plate-copper-mercury-amalgam.png",
     subgroup = "hydrargyros-processes",
     order = "add",
     icon_size = 64,
     pictures =
     {
-      { size = 64, filename = "__hydrargyros__/graphics/items/part-metal-plate-copper-aercury-amalgam.png", scale = 0.5 },
+      { size = 64, filename = "__hydrargyros__/graphics/items/part-metal-plate-copper-mercury-amalgam.png", scale = 0.5 },
     },
     stack_size = 100,
     default_import_location = "hydrargyros",

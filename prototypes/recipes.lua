@@ -21,6 +21,19 @@ data:extend({
   },
   results = {{type = "item", name = "mercuric-fumigation-chamber", amount = 1}}
 },
+{
+  type = "recipe",
+  name = "steam-heater",
+  enabled = false,
+  energy_required = 30, -- time to craft in seconds (at crafting speed 1)
+  ingredients = {
+    {type = "item", name = "plate-copper-mercury-amalgam", amount = 10},
+    {type = "item", name = "steel-plate", amount = 5},
+    {type = "item", name = "kr-steel-pipe", amount = 5},
+    {type = "item", name = "stone-brick", amount = 10},
+  },
+  results = {{type = "item", name = "steam-heater", amount = 1}}
+},
 -- Fluids
  {
     type = "recipe",

@@ -68,7 +68,7 @@ Offshore pump Acquires Liquid Mercury and Brine
 Steam enters the Steam Heater and heats the attached buildings 
 
 ✔ Mercuric Fumigation Chamber <- Steel Gears, Steel Pipes, Stone Brick, Steel Plate, Lime Glass
-Steam Heater <- Mercury Amalgam Plate, Steel Pipes, Stone Brick, Steel Plate
+✔ Steam Heater <- Mercury Amalgam Plate, Steel Pipes, Stone Brick, Steel Plate
 
 Thermal Reciprocator <- Carroted Heat Pipe, Steel Gears
 
@@ -207,6 +207,10 @@ If so make that an Electrolyzer
 
 
 Combinators using Hydroxide Mercury Power Cell and Vacuum tubes and require no power (maybe just a hidden void power plant)
+
+NOTES!
+Both Muluna and Corrundum use carbon dioxide for various things, while Muluna and Maraxsis use hydrogen. Those might be good mods to test Hydrargyros with if using the same fluid ids across planets is important to you.
+https://github.com/nicholasgower/planet-muluna/blob/main/prototypes/water-treatment.lua#L56
 
 Thanks List
 
