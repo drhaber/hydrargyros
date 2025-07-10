@@ -58,7 +58,7 @@ Iron Nodules will Dot the landscape Stone, Pyrite, and Copper Chloride, are mina
 
 T0
 
-Iron Nodules yield Vanilla Iron Ore
+Iron Nodules yield Vanilla Iron Ore and solid fuel
 Offshore pump, Stone Furnace, and Crude Mixing Chamber will all be craft able from Iron and Stone only
 
 This allows one to automate steam and heat with no outside resources
