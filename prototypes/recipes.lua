@@ -129,6 +129,28 @@ data:extend({
   },
   results = {{type = "item", name = "mesh-steel", amount = 5}}
 },
+{
+  type = "recipe",
+  name = "iron-ore",
+  icon = "__base__/graphics/icons/iron-ore.png",
+  category = "fumigation",
+  additional_categories = {"chemistry-with-heat"},
+  subgroup = "hydrargyros-processes",
+  enabled = false,
+  energy_required = 10, -- time to craft in seconds (at crafting speed 1)
+  ingredients = {
+    {type = "item", name = "pyrite", amount = 1},
+    {type = "fluid", name = "fluid-calcium-brine", amount = 100},
+    {type = "fluid", name = "sulfuric-acid", amount = 100}
+  },
+  results = 
+  {
+    {type = "item", name = "iron-ore", amount = 1},
+    {type = "fluid", name = "steam", amount = 100, temperature = 300},
+  },
+  allow_productivity = true,
+  auto_recycle = false,
+},
 -- Fluids
  {
     type = "recipe",

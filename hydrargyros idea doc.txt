@@ -94,8 +94,8 @@ Heated inserter <- Thermal Reciprocator, Steel Gear, Steel Plate
 ✔ Heated Stack Inserter <- Stack Inserter, Hydroxide Mercury Power Cell, Rubber
 
 Pyrite Processing
-Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Mercuric Fumigation Chamber
-Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Inside Heated Chemical Plant
+✔ Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Mercuric Fumigation Chamber
+✔ Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Inside Heated Chemical Plant
 
 Calcium Brine, Magnesium chloride brine -> Calcite <> Inside Heated Chemical Plant
 Steam 300C <- Calcium Oxide + Magnesium chloride brine <> Mercuric Fumigation Chamber

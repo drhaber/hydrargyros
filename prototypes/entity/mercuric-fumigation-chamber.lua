@@ -21,7 +21,7 @@ data:extend({
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     crafting_categories = {"fumigation"},
-    crafting_speed = 1,
+    crafting_speed = settings.startup["hydrargyros-mercuric-fumigation-chamber-crafting-speed"].value,
     --module_slots = 4,
     energy_source = 
     {
