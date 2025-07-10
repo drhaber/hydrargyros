@@ -149,17 +149,21 @@ data:extend({
   energy_required = 10, -- time to craft in seconds (at crafting speed 1)
   ingredients = {
     {type = "item", name = "pyrite", amount = 1},
-    {type = "fluid", name = "fluid-calcium-brine", amount = 100},
-    {type = "fluid", name = "sulfuric-acid", amount = 100}
+    {type = "fluid", name = "steam", amount = 1000},
+
   },
   results = 
   {
     {type = "item", name = "iron-ore", amount = 1},
-    {type = "fluid", name = "steam", amount = 100, temperature = 300},
+    {type = "fluid", name = "fluid-calcium-brine", amount = 100},
+    {type = "fluid", name = "sulfuric-acid", amount = 75}
+    --Eletrochemical with Planet Paracelsin compat yeild steam as 3rd output at 500 units and 500 degrees
   },
   allow_productivity = true,
   auto_recycle = false,
 },
+
+
 -- Fluids
  {
     type = "recipe",
