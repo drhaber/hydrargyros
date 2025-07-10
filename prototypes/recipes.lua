@@ -18,7 +18,8 @@ data:extend({
     {type = "item", name = "lime-glass", amount = 50},
     {type = "item", name = "stone-brick", amount = 100},
   },
-  results = {{type = "item", name = "mercuric-fumigation-chamber", amount = 1}}
+  results = {{type = "item", name = "mercuric-fumigation-chamber", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 {
   type = "recipe",
@@ -31,7 +32,8 @@ data:extend({
     {type = "item", name = "kr-steel-pipe", amount = 5},
     {type = "item", name = "stone-brick", amount = 10},
   },
-  results = {{type = "item", name = "steam-heater", amount = 1}}
+  results = {{type = "item", name = "steam-heater", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 {
   type = "recipe",
@@ -44,7 +46,8 @@ data:extend({
     {type = "item", name = "metal-steel-gear", amount = 5},
     {type = "item", name = "stone-brick", amount = 10},
   },
-  results = {{type = "item", name = "heated-assembling-machine", amount = 1}}
+  results = {{type = "item", name = "heated-assembling-machine", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 --"heat-inserter"
 {
@@ -57,7 +60,8 @@ data:extend({
     {type = "item", name = "steel-plate", amount = 1},
     {type = "item", name = "metal-steel-gear", amount = 1},
   },
-  results = {{type = "item", name = "long-heat-inserter", amount = 1}}
+  results = {{type = "item", name = "long-heat-inserter", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 {
   type = "recipe",
@@ -69,7 +73,8 @@ data:extend({
     {type = "item", name = "vacuum-tube", amount = 1},
     {type = "item", name = "metal-steel-gear", amount = 1},
   },
-  results = {{type = "item", name = "fast-heat-inserter", amount = 1}}
+  results = {{type = "item", name = "fast-heat-inserter", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 {
   type = "recipe",
@@ -81,7 +86,8 @@ data:extend({
     {type = "item", name = "hydroxide-mercury-power-cell", amount = 1},
     {type = "item", name = "metal-steel-gear", amount = 1},
   },
-  results = {{type = "item", name = "bulk-heat-inserter", amount = 1}}
+  results = {{type = "item", name = "bulk-heat-inserter", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 {
   type = "recipe",
@@ -93,7 +99,8 @@ data:extend({
     {type = "item", name = "hydroxide-mercury-power-cell", amount = 1},
     {type = "item", name = "material-rubber-sheet", amount = 1},
   },
-  results = {{type = "item", name = "stack-heat-inserter", amount = 1}}
+  results = {{type = "item", name = "stack-heat-inserter", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 -- Items  
 {
@@ -105,7 +112,8 @@ data:extend({
   ingredients = {
     {type = "fluid", name = "fluid-copper-mercury-amalgam", amount = 1000},
   },
-  results = {{type = "item", name = "plate-copper-mercury-amalgam", amount = 1}}
+  results = {{type = "item", name = "plate-copper-mercury-amalgam", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 {
   type = "recipe",
@@ -116,7 +124,8 @@ data:extend({
   ingredients = {
     {type = "item", name = "calcite", amount = 3},
   },
-  results = {{type = "item", name = "calcium-oxide", amount = 1}}
+  results = {{type = "item", name = "calcium-oxide", amount = 1}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
 },
 {
   type = "recipe",
@@ -171,6 +180,7 @@ data:extend({
       {type = "fluid", name = "steam", amount = 1000, temperature = 70}
     },
     allow_productivity = false,
+    surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
   },
    {
     type = "recipe",
@@ -190,5 +200,6 @@ data:extend({
       {type = "fluid", name = "fluid-copper-mercury-amalgam", amount = 100, temperature = 70}
     },
     allow_productivity = true,
+    surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
   },
 })  

@@ -18,6 +18,7 @@ data:extend({
         percent = 98
       }
     },
+    surface_conditions = {{property = "hydrargyros-causticity", min = 200}},
     collision_box = {{-1.2, -1.2}, {1.2, 1.2}},
     selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
     crafting_categories = {"fumigation"},
