@@ -97,12 +97,12 @@ Pyrite Processing
 ✔ Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Mercuric Fumigation Chamber
 ✔ Pyrite, Steam -> Sulfuric Acid, Calcium Brine, Iron Ore <> Inside Heated Chemical Plant
 
-Calcium Brine, Magnesium chloride brine -> Calcite <> Inside Heated Chemical Plant
-Steam 300C <- Calcium Oxide + Magnesium chloride brine <> Mercuric Fumigation Chamber
+✔ Calcium Brine, Magnesium chloride brine -> Calcite <> Inside Heated Chemical Plant
+✔ Steam 300C <- Calcium Oxide + Magnesium chloride brine <> Mercuric Fumigation Chamber
 
 Copper Processing
-Copper ore <- Copper Mercury Amalgam + Steam 300C <> Mercuric Fumigation Chamber
-Mercury Vapor <- Mercury <> Inside Heated Chemical Plant
+✔ Copper ore <- Copper Mercury Amalgam + Steam 300C <> Mercuric Fumigation Chamber
+✔ Mercury Vapor <- Mercury <> Inside Heated Chemical Plant
 
 Insulated Copper Wire <- Rubber Tube + Copper Mercury Amalgam + Steam 300C <> Mercuric Chamber
 
@@ -141,7 +141,9 @@ Steam Mercury Vapor Lamp <- Mercury Vapor Lamp + Hydroxide Mercury Power Cell <>
 
 Quicksilver Science Pack <- Mercury Vapor Lamp + Hydroxide Mercury Power Cell + Vacuum Tube
 
-Rocket Part <- Rocket Fuel + Low Density Allow + Vacuum Tube
+Rocket Part <- Steam + Low Density Allow + Vacuum Tube + Mechanical Computer
+
+Fold in Verne Gun mod idea - Steam Powered Rocket Silo featuring steam like cannon using local ingredients (not surface locked) 
 
 Low Density Allow <- Copper Mercury Amalgam + Rubber Tube + Steel Plate + 300C Steam <> Mercuric Fumigation Chamber
 

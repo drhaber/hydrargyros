@@ -162,8 +162,39 @@ data:extend({
   allow_productivity = true,
   auto_recycle = false,
 },
-
-
+{
+  type = "recipe",
+  name = "calcite-perciptate",
+  category = "chemistry-with-heat",
+  enabled = false,
+  energy_required = 10, -- time to craft in seconds (at crafting speed 1)
+  ingredients = {
+    {type = "fluid", name = "fluid-calcium-brine", amount = 100},
+    {type = "fluid", name = "magnesium-chloride-brine", amount = 100}
+  },
+  results = {{type = "item", name = "calcite", amount = 2}},
+  surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
+},
+{
+  type = "recipe",
+  name = "copper-ore",
+  icon = "__base__/graphics/icons/copper-ore.png",
+  category = "fumigation",
+  additional_categories = {"chemistry-with-heat"},
+  subgroup = "hydrargyros-processes",
+  enabled = false,
+  energy_required = 10, -- time to craft in seconds (at crafting speed 1)
+  ingredients = {
+    {type = "fluid", name = "fluid-copper-mercury-amalgam", amount = 100},
+    {type = "fluid", name = "steam", amount = 100, temperature = 300},
+  },
+  results = 
+  {
+    {type = "item", name = "copper-ore", amount = 1},
+  },
+  allow_productivity = true,
+  auto_recycle = false,
+},
 -- Fluids
  {
     type = "recipe",
@@ -186,12 +217,12 @@ data:extend({
     allow_productivity = false,
     surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
   },
-   {
+  {
     type = "recipe",
     name = "fluid-copper-mercury-amalgam",
     category = "fumigation",
     subgroup = "fluid-recipes",
-    order = "d[other-chemistry]-a[fluid-copper-mercury-amalgam]",
+    order = "d[other-chemistry]-a[hydrargyros-processes]",
     enabled = false,
     ingredients =
     {
@@ -206,4 +237,41 @@ data:extend({
     allow_productivity = true,
     surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
   },
-})  
+  {
+    type = "recipe",
+    name = "clacium-oxide-heating",
+    category = "chemistry-with-heat",
+    subgroup = "fluid-recipes",
+    order = "d[other-chemistry]-a[hydrargyros-processes]",
+    enabled = false,
+    ingredients =
+    {{type = "item", name = "calcium-oxide", amount = 1},
+      {type = "fluid", name = "magnesium-chloride-brine", amount = 1000},
+    },
+    energy_required = 1,
+    results =
+    {
+      {type = "fluid", name = "steam", amount = 100, temperature = 300}
+    },
+    allow_productivity = true,
+    surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
+  },
+  {
+    type = "recipe",
+    name = "mercury-bloiling",
+    category = "chemistry-with-heat",
+    subgroup = "fluid-recipes",
+    order = "d[other-chemistry]-a[hydrargyros-processes]",
+    enabled = false,
+    ingredients ={
+      {type = "fluid", name = "liquid-mercury", amount = 1000},
+    },
+    energy_required = 1,
+    results =
+    {
+      {type = "fluid", name = "gas-mercury-vapor", amount = 1000, temperature = 350}
+    },
+    allow_productivity = true,
+    surface_conditions = {{property = "hydrargyros-causticity", min = 200}}
+  },
+})
