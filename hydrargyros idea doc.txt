@@ -31,7 +31,7 @@ Thermal Reciprocator
 ✔ Resin (same as Wood industry if installed)
 ✔ Magnesium
 ✔ Lime Glass
-Lime Glass Batch
+✔ Lime Glass Batch
 ✔ Mercury Ingot
 ✔ Copper Mercury Amalgam Plate
 ✔ Steel Gears
@@ -64,7 +64,7 @@ Offshore pump, Stone Furnace, and Crude Mixing Chamber will all be craft able fr
 This allows one to automate steam and heat with no outside resources
 
 Stone Furnace Makes Iron Plates from Iron Ore 
-Offshore pump Acquires Liquid Mercury and Brine
+✔ Offshore pump Acquires Liquid Mercury and Brine
 ✔ Mercuric Chamber makes 70C steam by combining the new two liquids
 Steam enters the Steam Heater and heats the attached buildings 
 

@@ -219,6 +219,22 @@ data:extend({
     default_import_location = "hydrargyros",
     random_tint_color = item_tints.iron_rust,
     weight = 1*kg,
+  },
+    {
+    type = "item",
+    name = "lime-glass-batch",
+    icon = "__hydrargyros__/graphics/items/pile-lime-glass-batch.png",
+    subgroup = "hydrargyros-processes",
+    order = "aee",
+    icon_size = 64,
+    pictures =
+    {
+      { size = 64, filename = "__hydrargyros__/graphics/items/pile-lime-glass-batch.png", scale = 0.5 },
+    },
+    stack_size = 100,
+    default_import_location = "hydrargyros",
+    random_tint_color = item_tints.iron_rust,
+    weight = 1*kg,
   },    
   {
     type = "item",
